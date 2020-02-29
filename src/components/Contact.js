@@ -3,28 +3,42 @@ import CSSTransitionGroup from 'react-addons-css-transition-group';
 
 const Contact = (props) => {
   const { email, website } = props.info;
-  const layout = {display: 'flex', flexDirection: 'column', alignItems: 'flex-start'}
+  const layout = {display: 'flex', flexDirection: 'column', alignItems: 'center'}
   return (
-      <div className="Modal-Container bg-gray" style={{display: 'flex'}}>
-        <div className="Modal-content">
+      <div className="contact__container" style={{display: 'flex'}}>
+        <div className="contact__modal">
           <CSSTransitionGroup 
             style={layout}
             component="div"
             transitionName="slide"
             transitionEnterTimeout={5000}
-            transitionLeaveTimeout={3000}>
-            <h1 className="Header-name" >Contact:</h1>
-            <a href="mailto:carlos@carlosrh.com?subject=Resume%20Inquiry" style={{color: '#4a4a4a',textDecoration: 'none'}}>{email}</a>
-            <a href="https://carlosrh.com" style={{color: '#4a4a4a',textDecoration: 'none'}} target="_blank">{website}</a>
-        
+            transitionLeaveTimeout={3000}
+          >
+            <h1 className="contact__header" >Contact</h1>
+
+            <h3>
+              <a
+                href="mailto:jordanmartin@ksu.edu?subject=Resume%20Inquiry"
+                style={{textDecoration: 'none'}}
+              >
+                {email}
+              </a>
+            </h3>
+
+            <h3>
+              <a
+                href="https://linkedin.com/in/martin4kansas"
+                style={{ textDecoration: 'none'}}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {website}
+              </a>
+            </h3>
           </CSSTransitionGroup>
         </div>
       </div>
     )
 }
-
-// Contact.propTypes = {
-//   tagline: React.PropTypes.string.isRequired
-// }
     
 export default Contact;

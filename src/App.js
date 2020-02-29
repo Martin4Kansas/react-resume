@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom';
 import './App.css';
-import Header from './components/Header';
-import SkillList from './components/SkillList'
+import Hero from './components/Hero';
+import SkillsList from './components/SkillsList'
 import Card from './components/Card';
-import School from './components/School';
+import Education from './components/Education';
 import Contact from './components/Contact';
 
 class App extends Component {
@@ -12,30 +12,34 @@ class App extends Component {
     const resume = this.props.resumeJson;
     return (
       <Router>  
-        <div className="App">
-          <Header resumeObj={resume} className="Left"/>
+        <div className="app">
+          <Hero resumeObj={resume} />
           
-          <Route exact path={'/'} render={({ match }) => <Card resumeObj={resume} />}/>
-          <Route exact path={'/💻'} render={({ match }) => <SkillList resumeObj={resume} />}/>
-          <Route exact path={'/🎒'} render={({ match }) => <School education={resume.education[0]} />}/>
-          <Route exact path={'/📧'} render={({ match }) => <Contact info={resume.basics} />}/>
-         
-        {/*Nav Menu*/}
-          <ul className="App__pages">
-            <NavLink exact to={'/'} activeStyle={{fontWeight: 'bold', boxShadow: '1px 0px 0px rgba(0, 0, 0, 0.4)'}} className="chips blue">
-              Work
-            </NavLink>
-            <NavLink exact to={'/💻'} activeStyle={{fontWeight: 'bold', boxShadow: '1px 0px 0px rgba(0, 0, 0, 0.4)'}} className="chips blue">
-              Skills
-            </NavLink>
-            <NavLink exact to={'/🎒'} activeStyle={{fontWeight: 'bold', boxShadow: '1px 0px 0px rgba(0, 0, 0, 0.4)'}} className="chips blue">
-              Education
-            </NavLink>
-            <NavLink exact to={'/📧'} activeStyle={{fontWeight: 'bold', boxShadow: '1px 0px 0px rgba(0, 0, 0, 0.4)'}} className="chips blue">
-              Contact
-            </NavLink>
+          <Route
+            exact path={'/react-resume/'}
+            render={({ match }) => <Card resumeObj={resume} />}
+          />
+          <Route
+            exact path={'/react-resume/💻'}
+            render={({ match }) => <SkillsList resumeObj={resume} />}
+          />
+          <Route
+            exact path={'/react-resume/🎒'}
+            render={({ match }) => <Education education={resume.education[0]} />}
+          />
+          <Route
+            exact path={'/react-resume/📧'}
+            render={({ match }) => <Contact info={resume.basics} />}
+          />
+
+          <ul className="nav__container">
+            <nav className="nav">
+              <NavLink exact to={'.'} className="nav__btn">Experience</NavLink>
+              <NavLink to={'💻'} className="nav__btn">Skills</NavLink>
+              <NavLink to={'🎒'} className="nav__btn">Education</NavLink>
+              <NavLink to={'📧'} className="nav__btn">Contact</NavLink>
+            </nav>
           </ul>
-           
         </div>
       </Router>
     );

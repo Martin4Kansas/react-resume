@@ -1,149 +1,113 @@
-
 {
   "basics": {
-    "name": "Carlos Henriquez",
-    "label": "Front End Developer",
-    "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAArqAAAAJDE2YTU4NGM3LWI5ZmEtNGQyNS1hMGVkLTAwYTJhOTFmMTkwNA.jpg",
-    "email": "carlos@carlosrh.com",
-    "phone": "none",
-    "website": "https://carlosrh.com",
-    "summary": "Front End Developer seeking to work closely with a highly motivated team to apply experience in Web Development by leveraging new and existing technologies, and implementing effective solutions.",
+    "name": "Jordan Patrick Martin",
+    "label": "Full Stack Engineer",
+    "email": "jordanmartin@ksu.edu",
+    "phone": "(913) 406-0028",
+    "website": "https://linkedin.com/in/Martin4Kansas",
+    "summary": "Organized and motivated full stack engineer seeking to work collaboratively with a team of experienced engineers to craft a product that benefits my community and society, at large.",
     "location": {
-      "address": "NO Street addres",
-      "postalCode": "100012",
-      "city": "NYC",
+      "postalCode": "53719",
+      "city": "Madison",
       "countryCode": "US",
-      "region": "New York"
+      "region": "MSN"
     },
-    "profiles": [{
-      "network": "Twitter",
-      "username": "carloschulo",
-      "url": "http://twitter.com/carloschulo"
-    }]
+    "pdf": "jordan-patrick-martin.pdf"
   },
-  "work": [{
-    "company": "The Children's Place",
-    "current": true,
-    "position": "Front End Developer",
-    "website": "http://www.childrensplace.com/",
-    "startDate": "January 2017",
-    "endDate": "Present",
-    "summary": "Responsible for turning whiteboard sketches into working prototypes, and transforming design mockups into user interfaces",
-    "highlights": [
-      "Maintain both new and legacy environments, supporting React JS and Vanilla Javascript code base.",
-      "Update site content inside IBM WebSphere Ecommerce Content Management System.",
-      "Optimize front-end performance.",
-      "Integrate created code with other technologies, including web services, java back-end systems, content management systems, etc.",
-      "Collaborate with backend developers and creative designers to create new site features as needed and to troubleshoot and solve problems."
-    ]},
+  "work": [
     {
-    "company": "Deloitte",
-    "current": false,
-    "position": "Front End Developer",
-    "website": "http://www.deloitte.com",
-    "startDate": "September 2013",
-    "endDate": "December 2016",
-    "summary": "Work with the Deloitte IT Innovation team to create apps that eliminate manual processes within IT",
-    "highlights": [
-      "Developed tools using JavaScript, HTML5/CSS3/SASS, and SQL.",
-      "Developed an Asset Management tool that automates the laptop shipping process.",
-      "Took over development of Web App used by all internal IT in the US and India, that brings together all important end-user information by the swipe of a badge into one UI."
-    ]}, 
+      "company": "John Deere Financial",
+      "current": true,
+      "position": "Early Development Program - Software Engineer",
+      "website": "https://www.deere.com/en/finance/financing/",
+      "startDate": "June 2019",
+      "endDate": "Present",
+      "summary": "Working with Git, GitHub, JavaScript, Java, SQL, and Rest to develop and maintain financial web applications.",
+      "highlights": [
+        "Maintained over twenty java and VB6 applications for John Deere’s revolving credit business",
+        "Implemented DevOps solutions for continuous improvement using Jenkins, XLDeploy and Artifactory",
+        "Practiced leadership by coaching my team’s intern in development of his project and final presentation"
+      ]
+    },
     {
-    "company": "Comtech",
-    "current": false,
-    "position": "Video Teleconference Engineer",
-    "website": "http://www.comtechllc.com/",
-    "startDate": "April 2013",
-    "endDate": "August 2013",
-    "summary": "Video Engineer Contractor with the General Services Administration",
-    "highlights": [
-      "Developed SQL reports, pulling metrics for leadership.",
-      "Maintenance of data, video streaming, content delivery, and network hardware systems.",
-      "Configured and installed various VTC units, streaming servers, VTC appliances, and media players."
-    ]},
+      "company": "Deere & Company",
+      "current": false,
+      "position": "Sofware Development Intern",
+      "website": "https://www.deere.com/en/",
+      "startDate": "May 2018",
+      "endDate": "August 2018",
+      "summary": "Implemented security by design (SbD) principles for a corporate firewall team.",
+      "highlights": [
+        "Evaluated multiple solutions for secure configuration for the firewall team",
+        "Developed a proof of concept solution using Ansible",
+        "Led without authority by serving as scrummaster of an Agile Scrum team"
+      ]
+    },
     {
-    "company": "District of Columbia Public Schools",
-    "current": false,
-    "position": "Developer",
-    "website": "https://dcps.dc.gov/",
-    "startDate": "December 2011",
-    "endDate": "April 2013",
-    "summary": "Developed internal sites used by School Staff to access student data using HTML/CSS, JavaScript, SQL DB and Quickbase",
-    "highlights": [
-      "Created a Responsive Frontend dashboard that displayed student data entry errors, converting raw data into actionable data used by school staff.",
-      "Developed a Frontend account management system for User Account creations and modifications in the student data system."
-    ]}
+      "company": "John Deere Intelligent Solutions Group",
+      "current": false,
+      "position": "Mobile Development Intern",
+      "website": "https://www.deere.com/en/our-company/technology-and-innovation/",
+      "startDate": "May 2017",
+      "endDate": "August 2017",
+      "summary": "Developed a solution for third-party developers to create layers for the agricultural maps for growers to see in the mobile application MyAnalyzer™.",
+      "highlights": [
+        "Collaborated on a full-stack Agile Scrum team to develop new features and maintain two agronomic mobile apps for both Android and iOS",
+        "Learned to practice paired programming and test-driven development",
+        "Created a feature to allow outside companies to contribute map layers to the MyAnalyzer™ iOS app and began work on the Android app"
+      ]
+    },
+    {
+      "company": "John Deere Waterloo Works",
+      "current": false,
+      "position": "Energy Management Intern",
+      "website": "https://www.deere.com/en/agriculture/",
+      "startDate": "May 2016",
+      "endDate": "August 2016",
+      "summary": "Developed a tool for business decision makers to import testing data from three testing frameworks to make decisions about large tractors.",
+      "highlights": [
+        "Planned, organized and wrote code in Visual Basic for Applications to automate repetitive data processing and analysis in Microsoft Excel",
+        "Standardized the output of multiple types of tests across a range of tractor models",
+        "Organized and executed a curriculum revolving around STEM in the Waterloo community"
+      ]
+    }
   ],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "website": "http://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description...",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
   "education": [{
-    "institution": "University of Maryland",
-    "area": "Commercial Spanish",
-    "studyType": "Bachelors",
-    "startDate": "2003",
-    "endDate": "2009",
-    "gpa": "3.0",
-    "courses": [
-      "Java - Basic SQL"
-    ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "website": "http://publication.com",
-    "summary": "Description..."
+    "institution": "Kansas State University",
+    "area": "Computer Science and Mathematics",
+    "studyType": "Bachelor of Science",
+    "endDate": "2019"
   }],
   "skills": {
-    "name": "Web Development",
-    "level": "Mid-Level",
     "keywords": [
-      "HTML5",
-      "CSS3",
+      "Python",
+      "R",
+      "C",
+      "C++",
+      "C#",
+      "Java",
+      "Visual Basic",
+      "Objective-C",
+      "Swift",
+      "Ansible",
+      "Jenkins",
+      "AWS",
+      "SQL",
+      "HTML",
+      "CSS",
       "Javascript",
-      "ES6",
-      "React JS",
-      "React Router",
-      "Node JS",
-      "SASS",
-      "SCSS",
-      "jQuery",
-      "MySQL",
-      "Mongo DB",
+      "React",
+      "Node",
+      "R",
       "Git",
-      "Firebase"
-
+      "REST APIs",
+      "Ansible",
+      "Virtual Box",
+      "Jenkins",
+      "TypeScript",
+      "Linux",
+      "Mac OS",
+      "Microsoft Office"
     ]
-  },
-  "languages": [{
-    "name": "English",
-    "level": "Native speaker"
-  }],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference..."
-  }]
+  }
 }
