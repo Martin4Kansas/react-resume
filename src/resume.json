@@ -5,7 +5,7 @@
     "email": "jordanmartin@ksu.edu",
     "phone": "(913) 406-0028",
     "website": "https://linkedin.com/in/Martin4Kansas",
-    "summary": "Organized and motivated full stack engineer seeking to work collaboratively with a team of experienced engineers to craft a product that benefits my community and society, at large.",
+    "summary": "Organized and motivated full stack engineer helping John Deere to feed, clothe and shelter the world. Open to side projects and passion projects to make my community, state and country a better place.",
     "location": {
       "postalCode": "53719",
       "city": "Madison",
@@ -24,7 +24,9 @@
       "endDate": "Present",
       "summary": "Working with Git, GitHub, JavaScript, Java, SQL, and Rest to develop and maintain financial web applications.",
       "highlights": [
-        "Maintained over twenty java and VB6 applications for John Deere’s revolving credit business",
+        "Served as a Diversity and Inclusion Ambassador for John Deere Financial North America",
+        "Coordinated effort to enhance security by separating powers of application identifiers",
+        "Maintained over twenty Java and VB6 applications for John Deere’s revolving credit business",
         "Implemented DevOps solutions for continuous improvement using Jenkins, XLDeploy and Artifactory",
         "Practiced leadership by coaching my team’s intern in development of his project and final presentation"
       ]
@@ -72,15 +74,24 @@
       ]
     }
   ],
-  "education": [{
+  "education": [
+    {
+    "institution": "Kansas State University",
+    "area": "Data Analytics",
+    "studyType": "Master of Science",
+    "endDate": "2021"
+    },
+    {
     "institution": "Kansas State University",
     "area": "Computer Science and Mathematics",
     "studyType": "Bachelor of Science",
     "endDate": "2019"
-  }],
+    }
+  ],
   "skills": {
     "keywords": [
       "Python",
+      "PySpark",
       "R",
       "C",
       "C++",
@@ -101,12 +112,15 @@
       "R",
       "Git",
       "REST APIs",
+      "SOAP APIs",
+      "GraphQL",
       "Ansible",
       "Virtual Box",
       "Jenkins",
       "TypeScript",
       "Linux",
       "Mac OS",
+      "Windows OS",
       "Microsoft Office"
     ]
   }
