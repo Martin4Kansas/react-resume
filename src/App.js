@@ -25,7 +25,7 @@ class App extends Component {
           />
           <Route
             exact path={'/react-resume/🎒'}
-            render={({ match }) => <Education education={resume.education[0]} />}
+            render={({ match }) => <Education education={resume.education} />}
           />
           <Route
             exact path={'/react-resume/📧'}
